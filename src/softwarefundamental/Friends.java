@@ -12,13 +12,16 @@ package softwarefundamental;
 public class Friends {
     private String name;
     private int age;
-    public Friends(String name,int age)
+    private boolean isPartTime = false;
+    
+    public Friends(String name,int age, boolean isPartTime)
     {
         this.name=name;
         this.age=age;
+        this.isPartTime = isPartTime;
     }
     public String toString()
     {
-        return "[Student:: " +name + " , " + age + "]";
+        return "[Student:: " +name + " , " + age + " , " + isPartTime + " ]";
     }
 }

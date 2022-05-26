@@ -20,6 +20,7 @@ public class TestFriends {
         {
             System.out.println(fr);
             //pull
+            //fetch and merge operation 
         }
     }
 }

@@ -19,6 +19,7 @@ public class TestFriends {
         for(Friends fr: f)
         {
             System.out.println(fr);
+            //pull
         }
     }
 }
